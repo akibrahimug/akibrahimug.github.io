@@ -1,0 +1,115 @@
+
+/* page background color */
+body{
+    background-color: black;
+    font-family: 'Asap', sans-serif;
+}
+
+ /* Navbar toggler */
+ .navbar-toggler{
+     border-radius: 50%;
+     width: 50px;
+     height: 50px;
+     background-color: rgb(97, 192, 255);
+     box-shadow: none !important;
+ }
+
+ .navbar-toggler:hover{
+    box-shadow: 1px 2px 35px rgba(25, 139, 174, 1) !important;
+ }
+/* inner navbar toggler */
+.custom-toggler .navbar-toggler-icon{
+     width: 23px;
+    background-image: url(
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+ }
+
+a.navbar-brand,
+h5.offcanvas-title{
+    font-family: 'Corinthia', cursive;
+}
+
+a.navbar-brand{
+    color: rgb(97, 192, 255);
+}
+
+h5.offcanvas-title{
+    font-size: 20px;
+}
+
+.offcanvas-header{
+    background-color: rgb(97, 192, 255);
+}
+
+/* Offcanvas styles */
+div.offcanvas{
+    background-color: black;
+}
+
+/* nav items */
+.nav-item,
+a.nav-link.accordion-button{
+    background-color: rgb(97, 192, 255);
+}
+
+a.nav-link.accordion-button:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+
+.nav-link:hover,
+.accordion-button.collapsed{
+    color: black;
+}
+
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+    color: black;
+}
+
+{
+    color: black;
+}
+
+svg.bi-file-earmark-person,
+svg.bi-code-slash,
+svg.bi-person-lines-fill{
+    width: 20px;
+    height: 20px;
+    fill: rgba(0, 0, 0, 0.9);
+}
+
+a.nav-link {
+    padding: 0;
+    color: black;
+    font-size: 20px;
+}
+
+/* accordion body */
+div.accordion-body{
+    color: rgb(172, 222, 255);
+}
+
+/* hero section */
+div.hero{
+    background-image: url("/img/pexels-roberto-nickson-2885320.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40vh;
+    filter: hue-rotate(10deg);
+}
+
+img.profile{
+    border-radius: 50%;
+    width: 200px;
+    height: 190px;
+    border: 5px solid rgba(97, 192, 255, .3);
+    /* filter:saturate(200%); */
+}
+
+/* front end developer title */
+
+h1.title{
+    color: rgb(97, 192, 255);
+    border-color: rgba(97, 192, 255, .7) !important;
+}
