@@ -109,3 +109,64 @@ h1.title{
     color: rgb(97, 192, 255);
     border-color: rgba(97, 192, 255, .7) !important;
 }
+
+/* =============
+SOCIAL MEDIA ICONS
+=================*/
+.button{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(97, 192, 255);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    float: left;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid rgb(97, 192, 255);
+}
+
+.button .span{
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+
+.button:hover{
+    width: 150px;
+}
+
+.button:nth-child(1):hover .icon{
+    background: #E1306C;
+}
+
+.button:nth-child(2):hover .icon{
+    background: #0e76a8;
+}
+
+.button:nth-child(3):hover .icon{
+    background: #1da1f2 ;
+}
+
+.button:nth-child(4):hover .icon{
+    background: #000;
+}
+
+.button .icon{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button .icon i {
+    font-size: 25px;
+    line-height: 32px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover i {
+    color: #fff;
+}
