@@ -5,6 +5,11 @@ body{
     font-family: 'Asap', sans-serif;
 }
 
+/* NAvbar */
+nav.navbar{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
  /* Navbar toggler */
  .navbar-toggler{
      border-radius: 50%;
@@ -37,7 +42,7 @@ h5.offcanvas-title{
     font-size: 20px;
 }
 
-.offcanvas-header{
+.main-offcanvas.offcanvas-header{
     background-color: rgb(97, 192, 255);
 }
 
@@ -54,7 +59,7 @@ a.nav-link.accordion-button{
 
 a.nav-link.accordion-button:focus{
     outline: none !important;
-    box-shadow: none;
+    box-shadow: none !important;
 }
 
 .nav-link:hover,
@@ -88,10 +93,11 @@ div.accordion-body{
 
 /* hero section */
 div.hero{
-    background-image: url("pexels-roberto-nickson-2885320.jpg");
+    background-image: url("dark-mode.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 40vh;
+    background-position: bottom;
+    background-size: cover;
+    /* height: 40vh; */
     filter: hue-rotate(10deg);
 }
 
@@ -170,3 +176,13 @@ SOCIAL MEDIA ICONS
 .button:hover i {
     color: #fff;
 }
+
+/* =============
+PROJECTS SECTION STYLES
+=================*/
+
+div.card{
+    background-color: #000;
+    color: white;
+}
+
