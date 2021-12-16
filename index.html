@@ -20,8 +20,14 @@
     <!-- nav -->
     <nav class="navbar fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand fs-1" href="#">Kasoma Ibrahim</a>
-          <button class="navbar-toggler ml-auto custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <a class="navbar-brand" href="#">Kasoma Ibrahim</a>
+          <!-- dark and light theme toggle -->
+          <label id="switch" class="switch">
+            <input type="checkbox" onchange="toggleTheme()" id="slider">
+            <span class="slider round"></span>
+          </label>
+
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -30,11 +36,10 @@
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
 
-
             <div class="offcanvas-body">
               <!-- accordion -->
               <div class="accordion" id="accordionFlushExample">
-                <ul class="navbar-nav justify-content-end flex-grow-1  list-group">
+                <ul class="navbar-nav justify-content-end flex-grow-1 list-group">
                   
                   <li class=" accordion-header nav-item d-flex  align-items-center mb-2 list-group-item">
                     <g>
