@@ -33,7 +33,7 @@ nav.navbar{
 
 /* dark and light mode */
 .light-background{
-    background-color: white;
+    background-color: rgb(230, 230, 230);
 }
 
 .dark-background{
@@ -184,8 +184,11 @@ a.nav-link {
 }
 
 /* accordion body */
-div.accordion-body{
-    color: rgb(172, 222, 255);
+
+a.contact{
+    text-decoration: none;
+    color: #E1306C;
+    cursor: pointer;
 }
 
 /* hero section */
@@ -281,6 +284,15 @@ PROJECTS SECTION STYLES
 div.card{
     background-color: #000;
     color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+div.card a{
+    text-decoration: none;
+}
+
+div.card:hover{
+    cursor: pointer;
 }
 
 /* Extra Small devices (landscape phones, 576px and up) */
@@ -327,6 +339,14 @@ div.card{
     .switch {
         left: 110px;
       }
+/* hero profile picture */
+      img.profile{
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        border: 5px solid rgba(97, 192, 255, .3);
+        /* filter:saturate(200%); */
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
