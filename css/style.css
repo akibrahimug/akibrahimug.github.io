@@ -48,19 +48,6 @@ nav.navbar{
 .dark-text{
     color: rgb(57, 57, 57) !important;
 }
-.theme-light {
-    --color-primary: #0060df;
-    --color-secondary: #fbfbfe;
-    --color-accent: #fd6f53;
-    --font-color: #000000;
-  }
-  .theme-dark {
-    --color-primary: #17ed90;
-    --color-secondary: #2a2c2d;
-    --color-accent: #12cdea;
-    --font-color: #ffffff;
-  }
-
   
   /* The switch - the box around the slider */
   .switch {
@@ -220,8 +207,8 @@ h1.title{
 SOCIAL MEDIA ICONS
 =================*/
 .button{
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
     background-color: rgb(97, 192, 255);
     border-radius: 50px;
     cursor: pointer;
@@ -234,7 +221,6 @@ SOCIAL MEDIA ICONS
 
 .button .span{
     font-weight: 500;
-    line-height: 60px;
     margin-left: 10px;
 }
 
@@ -242,35 +228,44 @@ SOCIAL MEDIA ICONS
     width: 150px;
 }
 
-.button:nth-child(1):hover .icon{
+.button:nth-child(2):hover .icon{
     background: #E1306C;
 }
 
-.button:nth-child(2):hover .icon{
+.button:nth-child(1):hover .icon{
     background: #0e76a8;
 }
 
-.button:nth-child(3):hover .icon{
+.button:nth-child(4):hover .icon{
     background: #1da1f2 ;
 }
 
-.button:nth-child(4):hover .icon{
-    background: #000;
+.button:nth-child(3):hover .icon{
+    background: #0072b1;
+}
+
+.button:nth-child(5):hover .icon{
+    background:  #171515;
 }
 
 .button .icon{
     display: inline-block;
-    height: 32px;
-    width: 32px;
+    height: 42px;
+    width: 42px;
     text-align: center;
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
+    text-decoration: none !important;
 }
 
 .button .icon i {
     font-size: 25px;
-    line-height: 32px;
+    line-height: 42px;
     transition: all 0.3s ease-in-out;
+}
+
+a.button{
+    color: #000;
 }
 
 .button:hover i {
