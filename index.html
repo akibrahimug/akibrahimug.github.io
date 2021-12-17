@@ -23,7 +23,7 @@
           <a class="navbar-brand" href="#">Kasoma Ibrahim</a>
           <!-- dark and light theme toggle -->
           <label id="switch" class="switch">
-            <input type="checkbox" onchange="toggleTheme()" id="slider">
+            <input type="checkbox" id="slider" onclick="handleMode()">
             <span class="slider round"></span>
           </label>
 
@@ -109,7 +109,7 @@
         <div class="d-flex container justify-content-center">
           <button class="btn btn-outline-info rounded-0 btn-lg mb-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasbottom" aria-controls="offcanvasbottom">View my ToolKit Here</button>
           <div class="offcanvas offcanvas-bottom h-50" tabindex="-1" id="offcanvasbottom" aria-labelledby="offcanvasbottomLabel">
-            <div class="offcanvas-header">
+            <div class="offcanvas-header bottom-header">
               <button type="button" class="btn-close text-reset btn-close-white me-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               <p class="text-muted border-bottom">Please Keep Scrolling</p>
             </div>

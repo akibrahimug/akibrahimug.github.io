@@ -29,8 +29,25 @@ nav.navbar{
         "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
  }
 
-/* dark and light mode */
 
+
+/* dark and light mode */
+.light-background{
+    background-color: white;
+}
+
+.dark-background{
+    background-color: rgb(57, 57, 57);
+}
+
+.light-border{
+    border: 1px solid rgb(57, 57, 57);
+    background-color: transparent;
+}
+
+.dark-text{
+    color: rgb(57, 57, 57) !important;
+}
 .theme-light {
     --color-primary: #0060df;
     --color-secondary: #fbfbfe;
@@ -69,7 +86,7 @@ nav.navbar{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: rgb(97, 192, 255);
     -webkit-transition: 0.4s;
     transition: 0.4s;
   }
@@ -93,11 +110,7 @@ nav.navbar{
   }
   
   input:checked + .slider {
-    background-color: #2196f3;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196f3;
+    background-color: #ccc;
   }
   
   input:checked + .slider:before {
