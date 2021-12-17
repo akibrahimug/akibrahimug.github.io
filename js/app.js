@@ -57,5 +57,3 @@ const handleMode = () => {
         bottomHeader.style.backgroundColor = 'black' //bottom offcanvas header
     }
 }
-
-handleModeO()
