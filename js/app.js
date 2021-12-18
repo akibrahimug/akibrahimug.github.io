@@ -26,6 +26,7 @@ const handleMode = () => {
         brandName.classList.add('dark-text') //navbar brand color
         offcanvasNav.classList.add('bg-light') //offcanvas menue
         offcanvasBottom.classList.add('light-background') //bottom offcanvas
+        bottomHeader.classList.add('light-background') //bottom offcanvas header
 
         navItems.forEach(item => {// Each nav item
             item.style.backgroundColor = 'transparent'
@@ -37,8 +38,6 @@ const handleMode = () => {
         })
 
         heroSection.style.backgroundImage = 'none' //hero section
-
-        bottomHeader.classList.add('light-background') //bottom offcanvas header
 
         cardBody.forEach(item =>{
             item.style.backgroundColor = '#fff'
@@ -63,6 +62,7 @@ const handleMode = () => {
         brandName.classList.remove('dark-text') //navbar brand color
         offcanvasNav.classList.remove('bg-light') //offcanvas menue
         offcanvasBottom.classList.remove('light-background') //bottom offcanvas
+        bottomHeader.classList.remove('light-background') //bottom offcanvas header
 
         accordionButtons.forEach(button => { //Each accordian button
             button.style.backgroundColor = 'rgb(97, 192, 255)'
@@ -74,9 +74,7 @@ const handleMode = () => {
         })
 
         heroSection.style.backgroundImage = "url('/css/dark-mode.jpg')" //hero section
-
-
-        bottomHeader.style.backgroundColor = 'black' //bottom offcanvas header
+        
 
         cardBody.forEach(item =>{
             item.style.backgroundColor = '#000'
