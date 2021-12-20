@@ -228,23 +228,19 @@ SOCIAL MEDIA ICONS
     width: 150px;
 }
 
-.button:nth-child(2):hover .icon{
+.button:nth-child(1):hover .icon{
     background: #E1306C;
 }
 
-.button:nth-child(1):hover .icon{
-    background: #0e76a8;
-}
-
-.button:nth-child(4):hover .icon{
+.button:nth-child(3):hover .icon{
     background: #1da1f2 ;
 }
 
-.button:nth-child(3):hover .icon{
+.button:nth-child(2):hover .icon{
     background: #0072b1;
 }
 
-.button:nth-child(5):hover .icon{
+.button:nth-child(4):hover .icon{
     background:  #171515;
 }
 
