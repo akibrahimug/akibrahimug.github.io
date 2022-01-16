@@ -191,7 +191,7 @@ div.hero{
 img.profile{
     border-radius: 50%;
     width: 200px;
-    height: 190px;
+    height: 200px;
     border: 5px solid rgba(97, 192, 255, .3);
     /* filter:saturate(200%); */
 }
