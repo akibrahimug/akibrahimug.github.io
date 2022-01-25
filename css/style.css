@@ -120,6 +120,7 @@ nav.navbar{
 
 a.navbar-brand{
     color: rgb(97, 192, 255);
+    font-size: 25px;
 }
 
 h5.offcanvas-title{
