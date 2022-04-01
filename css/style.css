@@ -146,7 +146,13 @@ a.nav-link.accordion-button:focus{
     outline: none !important;
     box-shadow: none !important;
 }
-
+.new-link{
+    font-size: 23px;
+    color: red;
+}
+.new-link a{
+    color: white;
+}
 .nav-link:hover,
 .accordion-button.collapsed{
     color: black;
